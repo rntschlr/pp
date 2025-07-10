@@ -8,6 +8,16 @@ This is a full-stack web application built as a personal portfolio website for "
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+### January 10, 2025 - Website Revision
+- Removed social media links from hero section and contact section
+- Removed downloadable resume PDF functionality
+- Removed personal background content from about section
+- Renamed "About" navigation to "Education" to better reflect content focus
+- Simplified about section to focus on education, experience, and achievements only
+- Updated section titles to be more specific and professional
+
 ## System Architecture
 
 ### Frontend Architecture

@@ -1,13 +1,13 @@
-import { Code, Smartphone, Database, Trophy, Medal, Award } from "lucide-react";
+import { Trophy, Medal, Award } from "lucide-react";
 
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Me</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Education & Experience</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I'm a dedicated Computer Science student with a passion for solving complex problems through code.
+            My academic background and professional experience in Computer Science.
           </p>
         </div>
 
@@ -50,41 +50,6 @@ export default function About() {
           </div>
 
           <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-4">What I Do</h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center">
-                    <Code className="text-indigo-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">Web Development</h4>
-                    <p className="text-gray-600">Building responsive, modern web applications using the latest technologies and best practices.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
-                    <Smartphone className="text-cyan-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">Mobile Development</h4>
-                    <p className="text-gray-600">Creating cross-platform mobile applications with focus on user experience and performance.</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
-                    <Database className="text-green-600" size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-lg">Data Analysis</h4>
-                    <p className="text-gray-600">Analyzing complex datasets to extract meaningful insights and drive decision-making.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             <div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Achievements</h3>
               <div className="space-y-3">

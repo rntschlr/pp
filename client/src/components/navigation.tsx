@@ -36,7 +36,7 @@ export default function Navigation() {
                 onClick={() => handleLinkClick("#about")}
                 className="text-gray-700 hover:text-indigo-600 transition-colors duration-300"
               >
-                About
+                Education
               </button>
               <button
                 onClick={() => handleLinkClick("#skills")}
@@ -84,7 +84,7 @@ export default function Navigation() {
               onClick={() => handleLinkClick("#about")}
               className="block w-full text-left px-3 py-2 text-gray-700 hover:text-indigo-600 transition-colors duration-300"
             >
-              About
+              Education
             </button>
             <button
               onClick={() => handleLinkClick("#skills")}

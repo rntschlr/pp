@@ -1,4 +1,4 @@
-import { User, Github, Linkedin, Twitter } from "lucide-react";
+import { User } from "lucide-react";
 
 export default function Hero() {
   const handleLinkClick = (href: string) => {
@@ -47,32 +47,7 @@ export default function Hero() {
             </button>
           </div>
 
-          <div className="flex justify-center space-x-6 mt-8">
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-indigo-600 transition-colors duration-300"
-            >
-              <Github size={32} />
-            </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-indigo-600 transition-colors duration-300"
-            >
-              <Linkedin size={32} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-indigo-600 transition-colors duration-300"
-            >
-              <Twitter size={32} />
-            </a>
-          </div>
+
         </div>
       </div>
     </section>

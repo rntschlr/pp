@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
 import type { z } from "zod";
 
 type ContactFormData = z.infer<typeof insertContactSchema>;
@@ -105,43 +105,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">Social Media</h3>
-              <div className="flex space-x-4">
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-white hover:bg-gray-700 transition-colors duration-300"
-                >
-                  <Github size={20} />
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-colors duration-300"
-                >
-                  <Linkedin size={20} />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-blue-400 rounded-lg flex items-center justify-center text-white hover:bg-blue-500 transition-colors duration-300"
-                >
-                  <Twitter size={20} />
-                </a>
-                <a
-                  href="https://instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center text-white hover:bg-purple-700 transition-colors duration-300"
-                >
-                  <Instagram size={20} />
-                </a>
-              </div>
-            </div>
+
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
