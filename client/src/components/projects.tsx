@@ -58,51 +58,11 @@ function ProjectCard({ title, description, tags, imageUrl, demoUrl, codeUrl }: P
 export default function Projects() {
   const projects = [
     {
-      title: "Weather Dashboard",
-      description: "A responsive weather application built with React and OpenWeatherMap API featuring real-time data and 5-day forecasts.",
-      tags: ["React", "Node.js", "API"],
-      imageUrl: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com"
-    },
-    {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce application with user authentication, shopping cart, and payment integration.",
-      tags: ["MERN", "Redux", "Stripe"],
-      imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com"
-    },
-    {
-      title: "Task Manager",
-      description: "A collaborative task management tool with real-time updates, team collaboration, and progress tracking.",
-      tags: ["React", "Socket.io", "MongoDB"],
-      imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com"
-    },
-    {
-      title: "Data Visualization Dashboard",
-      description: "Interactive dashboard for data analysis with dynamic charts, filtering, and real-time updates.",
-      tags: ["D3.js", "React", "Python"],
-      imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com"
-    },
-    {
-      title: "Real-time Chat App",
-      description: "Mobile-first chat application with real-time messaging, file sharing, and group conversations.",
-      tags: ["React Native", "Firebase", "Socket.io"],
-      imageUrl: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
-      codeUrl: "https://github.com"
-    },
-    {
-      title: "ML Prediction Model",
-      description: "Machine learning model for predictive analysis with data preprocessing, training, and visualization.",
-      tags: ["Python", "TensorFlow", "Pandas"],
-      imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
-      demoUrl: "https://example.com",
+      title: "Personal Portfolio",
+      description: "A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS featuring smooth animations and optimized performance.",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      imageUrl: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
+      demoUrl: "#",
       codeUrl: "https://github.com"
     }
   ];

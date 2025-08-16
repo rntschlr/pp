@@ -19,13 +19,17 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="space-y-8">
-          {/* Professional headshot placeholder */}
-          <div className="w-48 h-48 mx-auto rounded-full bg-gray-200 flex items-center justify-center mb-8 shadow-lg">
-            <User size={96} className="text-gray-400" />
+          {/* Professional headshot */}
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-8 shadow-lg">
+            <img 
+              src="/profile-photo.jpeg" 
+              alt="Jack Rentschler" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            Hi, I'm <span className="text-indigo-600">Alex Johnson</span>
+            Hi, I'm <span className="text-indigo-600">Jack Rentschler</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
