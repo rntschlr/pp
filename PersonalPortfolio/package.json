@@ -1,0 +1,18 @@
+{
+  "name": "jack-rentschler-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "vite": "^5.4.19"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
